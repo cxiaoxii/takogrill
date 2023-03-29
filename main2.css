@@ -1,0 +1,1103 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+
+}
+
+
+.header1 {
+
+
+   display: flex;
+   padding: 50px 350px 30px;
+   align-items: flex-end;
+
+   position: relative;
+   z-index: 999;
+   background-color: rgb(228, 229, 227);
+ 
+   
+
+}
+
+.logo img {
+
+    width: 300px;
+}
+
+.navbar {
+    display: flex;
+    position: absolute;
+    left: -120px;
+justify-items: left;
+align-items: flex-start;
+
+
+
+}
+
+.menu1 {
+
+display: flex;
+flex-direction: column;
+justify-content: left;
+position: absolute;
+left: 790px;
+bottom: 10px;
+/* gap: 50px; */
+
+
+}
+
+
+
+.navbar a:link {
+
+    padding: 8px;
+    border-radius: 80%;
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:lighter;
+
+}
+
+.navbar a:hover {
+
+    color: rgb(43, 3, 3);
+    background-color: bisque;
+    transition: 0.8s;
+
+}
+
+.navbar a:visited {
+
+    color: rgb(43, 3, 3);
+    background-color: beige;
+    padding: 8px;
+
+}
+
+.navbar a:active {
+
+    color: rgb(43, 3, 3);
+    background-color: bisque;
+    padding: 8px;
+
+}
+
+
+.navindicated {
+
+    padding: 8px;
+    border-radius: 8px;
+    color: rgb(43, 3, 3);
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: bisque;
+    font-weight: bold;
+
+}
+
+
+
+.menu1 {
+
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 0.9rem;
+    padding-bottom: 40px;
+}
+
+.buttononline {
+
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(43, 3, 3);
+
+}
+
+#hamicon1 {
+
+    display: none;
+
+}
+
+
+
+.buttononline a:link {
+
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.buttononline a:visited {
+
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.buttononline:hover {
+
+    background-color: rgb(163, 93, 2);
+    cursor: pointer;
+    transition: 0.8s;
+
+}
+
+
+
+
+.hamicon {
+
+    cursor: pointer;
+
+}
+
+
+
+/* home section starts here */
+
+
+
+.sectionhero {
+    
+    background-color: rgb(	239, 243, 239);
+    background-position: center;
+    background-size: filled;
+}
+
+
+.herocontainer {
+
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 0px;
+
+}
+
+
+.herowrap {
+
+    padding: 0px 0px 50px 0px;
+
+}
+
+
+.heroimage img {
+
+    width: 1000px;
+    height: 700px;
+    opacity: 60%;
+    justify-items: right;
+    width: 100%;
+    
+   
+
+}
+
+
+.herotext {
+
+    max-width: 500px;
+    color: rgb(56, 118, 29);
+    line-height: 28px;
+    position: absolute;
+    left: 400px;
+    padding-top: 300px;
+    z-index: 999;
+
+    
+
+}
+
+.specialbutton {
+
+    width: 120px;
+    color: black;
+    font-size: 1rem;
+    padding: 35px;
+    border-radius: 100%; 
+    background-color:rgb(246,178,107);
+    border-style:inset;
+
+
+}
+
+
+.specialbutton a:link {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.specialbutton a:visited {
+
+    text-decoration: none;
+    color: rgb(43, 3, 3);
+
+}
+
+.specialbutton:hover {
+
+    background-color: rgb(254, 210, 153);
+    cursor: pointer;
+    transition: 0.8s;
+
+}
+
+.galleryimage img {
+
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+.gallerytitle{
+
+padding-top: 100px;
+
+}
+
+.gallerytitle h1 {
+
+    max-width: 200px;
+    color:rgb(246,178,107);
+    font-size: 2rem;
+    font-family:Montserrat;
+    text-align: left;
+    font-weight:400;
+    
+
+}
+.gallerytitle h2{
+
+    max-width: 200px;
+    color: rgb(56, 118, 29);
+    font-size: 3.5rem;
+    text-align: left;
+    font-style: italic;
+}
+ 
+.gallerycontainer {
+
+
+    background-size: cover;
+    display:flex;
+    flex-direction: row;
+    gap: 400px;
+    padding: 200px 200px 200px;
+    justify-content: center;
+
+}
+
+
+.gallerywrap {
+
+    background-color: rgba(239, 243, 239, 0.92);
+   
+    justify-content: center;
+   
+
+
+}
+
+.makeareservation h1 {
+
+    text-align: left;
+ 
+
+}
+
+
+/* home form starts here */
+
+.sectioncontactform {
+
+    padding: 15px 20% 15px 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.abouthero {
+
+    position:absolute;
+    padding: 50px 80px 50px 80px;
+    background-color: rgb(	239, 243, 239);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+}
+
+
+/* home contact us form */
+
+.contactusbox {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 40px;
+    border-radius: 5px;
+    box-shadow: 3px;
+    /* border: 2px solid rgb(43, 3, 3); */
+    /* background-color: rgb(226, 213, 175); */
+    /* padding: 20px; */
+    margin: 0 auto;
+
+
+}
+
+.contactusbox form .inputbox .input span {
+
+    display: block;
+    padding: 8px 8px 0px 0px;
+    font-size: 1rem;
+}
+
+.contactusbox form .inputbox .input input,
+.contactusbox form .inputbox .input textarea {
+
+    padding: 5px;
+    width: 100%;
+
+
+}
+
+
+.contactusbox form .inputbox .submitbtn {
+
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 70%;
+    background-color: rgb(246,178,107);
+    color: black;
+    width: 160px;
+    margin-top: 18px;
+
+}
+
+
+/* home interior img section starts here */
+
+.sectionabout {
+
+
+    /* background-color: rgb(19, 13, 13); */
+    background-image: url(images1/takogrill\ interior.jpeg);
+    background-size: 100%;;
+    padding: 300px 020px 250px 020px;
+    background-repeat:no-repeat;
+    
+
+
+
+}
+
+
+.aboutcontainer {
+
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+
+
+}
+
+.aboutimage {
+
+    max-width: 450px;
+
+}
+
+.aboutimage img {
+
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+    
+
+}
+/* end of home page */
+
+
+
+/* about page starts here */
+
+
+
+
+.abouthero {
+
+ 
+    margin:0 auto;
+    background-size: cover;
+    background-color: rgb(	239, 243, 239);
+    background-repeat: no-repeat;
+    /* padding: 500px 80px 50px 80px; */
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+
+
+
+}
+
+.aboutherotext {
+
+    max-width: 100%;
+    padding: 80px 80px 50px 80px;
+    margin: 0 auto;
+    /* color: rgb(246,178,107); */
+    color:black;
+    font-family: Monsterrat;
+    font-size: 1.25rem;
+ 
+
+
+}
+
+.abouthero2 {
+    
+   
+
+    background-color: rgb(	239, 243, 239);
+    padding: 300px 80px 100px 80px;
+    justify-content: center;
+    /* max-width: 100%;
+    max-height: 100%; */
+    
+
+}
+
+.aboutherocontainer{
+
+    display: flex;
+    flex-direction: row;
+    /* margin: 0 auto; */
+    justify-content: center;
+    padding: 100px 80px 100px 80px;
+    gap:450px;
+    
+
+}
+
+.aboutherotext1 {
+
+    max-width: 1000px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.aboutherotext1 h2{
+    /* contact */
+
+    color:rgb(246,178,107);
+    font-size: 2rem;
+    
+}
+
+.aboutherotext1 h1{
+/* takogrill no. & gmail */
+
+    color:rgb(56, 118, 29);
+    font-size: 1.2rem;
+
+}
+
+.aboutherotext2 {
+
+    max-width: 1000px;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.aboutherotext2 h2{
+    /* location */
+
+    /* max-width: 1000px; */
+    /* margin: 0 auto; */
+    font-size: 2rem;
+    color: rgb(246,178,107);
+    
+
+    
+
+}
+.aboutherotext2 h1{
+    /* 1 Mcnally street */
+
+    color:rgb(56, 118, 29);
+    font-size: 1.2rem;
+    
+    
+}
+
+.aboutherotext2 h3{
+    /* get directions below*/
+
+    color:grey;
+    font-size: 1rem;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 400;
+
+}
+
+.mapbox {
+
+   
+    width: 0% auto;
+    max-height: 0 auto;
+
+
+}
+
+
+/* make google map responsive */
+
+.googlemap {
+
+    padding: 400px;
+    position: relative;
+
+}
+
+
+.googlemap iframe {
+
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+
+}
+
+
+
+
+/* menu starts here */
+
+.menusection {
+
+    background-color: rgb(	239, 243, 239);
+    display: flex;
+    justify-content: center;
+    padding: 150px 10% 50px 10%;
+    align-content: center;
+    justify-content: center;
+    z-index: 0;
+
+   
+}
+
+.menutitle h1{
+
+    
+    justify-content: center;
+    color: rgb(246,178,107);
+    font-size: 2.5rem;
+    padding-bottom: 15px;
+    
+
+
+}
+.menutitle h2{
+    
+
+    color:green;
+    background-color:rgb(246,178,107) ;
+    border-radius: 70%;
+    padding: 10px;
+
+    font-family:montserrat;
+    font-weight: 50;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1rem;
+    
+
+
+}
+
+.menutitle a:link{
+
+
+    font-weight: bold;
+    color: rgb(175, 78, 13);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.menuchoice {
+
+    height: 60px;
+
+}
+
+.menuselected {
+
+    font-weight: bold;
+    color: rgb(175, 78, 13);
+    text-transform: uppercase;
+
+}
+
+.menuchoice a:link {
+
+    padding: 8px;
+    border-radius: 8px;
+    color: rgb(43, 3, 3);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.menuchoice a:hover {
+
+    color: rgb(43, 3, 3);
+    background-color: rgb(110, 100, 86);
+    transition: 0.8s;
+
+}
+
+.menuchoice a:visited {
+
+    color: rgb(43, 3, 3);
+    background-color: rgb(110, 100, 86);
+    padding: 8px;
+
+}
+
+
+
+.menuchoice ul {
+
+    height: 60px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    align-items: flex-end;
+
+
+}
+
+
+
+
+/* menu gallery section */
+
+.fullmenucontainer {
+
+    background-color: rgb(	239, 243, 239);
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+
+.fullmenu1 img{
+
+justify-content: center;
+display:block;
+padding:50px 100px 50px 100px;
+max-width:100%;
+max-height: 100%;
+
+}
+
+
+
+
+
+
+/* reservations page starts here */
+
+.reservations {
+
+    background-color: rgb(	239, 243, 239);
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    
+}
+
+.reservationscontainer{
+
+    background-size: cover;
+    max-width: 0 auto;
+    justify-items: left;
+    width: 1000px;
+    height: 800px;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:100px;
+
+
+}
+
+.reservationsimage img{
+ 
+    justify-items: left;
+    display:block;
+    width: 500px;
+    height:800px;
+    
+
+}
+
+
+/* reservations contact us form */
+
+.makereservetext h2{
+
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 2rem;
+    /* text-decoration-color: blanchedalmond; */
+    color:rgb(56, 118, 29);
+    padding-bottom: 35px;
+    
+}
+
+
+
+.reservationform{
+
+    padding-top:300px;
+
+
+}
+
+.contactusbox1 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 40px;
+    border-radius: 5px;
+    box-shadow: 3px;
+    margin: 0 auto;
+
+
+}
+
+.contactusbox1 form .inputbox .input span {
+
+    display: block;
+    padding: 8px 8px 0px 0px;
+    font-size: 1rem;
+}
+
+.contactusbox1 form .inputbox .input input,
+.contactusbox1 form .inputbox .input textarea {
+
+    padding: 5px;
+    width: 100%;
+
+
+}
+
+
+.contactusbox1 form .inputbox .submitbtn {
+
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 70%;
+    background-color: rgb(246,178,107);
+    color: black;
+    width: 160px;
+    margin-top: 18px;
+
+
+}
+
+
+
+
+
+/* footer section starts here */
+
+
+.footer1 {
+
+    background-color: rgb(239, 243, 239);
+    padding: 60px 135px 60px 135px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    font-size: smaller;
+
+}
+
+.navbarbottom a:link {
+
+    padding: 8px;
+    border-radius: 8px;
+    color: rgb(43, 3, 3);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.navbarbottom a:hover {
+
+    color: rgb(43, 3, 3);
+    background-color: bisque;
+    transition: 0.8s;
+
+}
+
+.navbarbottom a:visited {
+
+    color: rgb(43, 3, 3);
+    background-color: bisque;
+    padding: 8px;
+
+}
+
+.navbarbottom a:active {
+
+    color: rgb(43, 3, 3);
+    background-color: bisque;
+    padding: 8px;
+
+}
+
+.locateinfo {
+
+    color: black;
+    font-size: 0.9rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* media query section starts here */
+
+
+@media only screen and (max-width: 1200px) {
+
+    .header1 {
+
+       
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar {
+
+
+        /* position: absolute; */
+        width: 100%;
+        left: 0;
+        top: 100%;
+        height:50%;
+        background-color: rgba(194, 218, 194, 0.95);
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        
+
+    }
+
+    .navbar.active {
+
+        /* left:-100px; */
+        position:absolute;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    }
+
+
+
+    .menu1 {
+
+        flex-direction: column;
+        padding: 15px;
+
+    }
+
+    #hamicon1 {
+
+        display: block;
+
+    }
+
+
+    .abouthero {
+
+        max-width: 650px;
+    
+
+    }
+
+
+
+}
+
+.contactusbox {
+
+
+    flex-wrap: nowrap;
+
+}
+
+
+
+
+@media only screen and (max-width: 810px) {
+
+    .herowrap {
+
+        padding: 40px 0px 40px 0px;
+
+    }
+
+    .menutitle {
+
+
+        font-size: 1.7rem;
+
+    }
+}
+
+.contactusbox {
+
+
+    flex-wrap: wrap;
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 390px) {
+
+    .herowrap {
+
+        padding: 0px 0px 0px 0px;
+
+    }
+
+    .locateinfo h2 {
+
+        font-size: 1.3rem;
+
+
+    }
+
+    .locateinfo {
+
+        text-align: center;
+
+    }
+
+
+    .navbarbottom {
+
+        text-align: center;
+
+    }
+
+    .gallerywrap {
+
+        padding: 50px;
+
+
+    }
+
+    .gallerytitle {
+
+        text-align: center;
+
+    }
+
+
+    .herotext h1 {
+
+        line-height: 38px;
+
+    }
+
+
+    .menusection {
+
+
+        padding: 15px 20% 15px 12%;
+        gap: 25px;
+    }
+
+
+    .menutitle {
+
+
+        font-size: 1.5rem;
+
+    }
+
+
+    .sectioncontactform {
+
+        padding: 15px 10% 15px 10%;
+    }
+
+}

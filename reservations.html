@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+
+</head>
+
+<body>
+
+
+    <!-- header starts here-->
+
+    <header class="header1">
+
+        <div class="logo">
+            <img src="images1/takogrill logo.png" alt="logo">
+        </div>
+
+        <nav id="navbar1" class="navbar">
+
+            <ul class="menu1">
+                <!-- <li><span class="navindicated">home</span></li> -->
+                <li><a href="index2.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="menu1.html">menu</a></li>
+                <li><a href="reservations.html">Reservation</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="hamicon" id="hamicon1">
+            <img src="images/Hamburger_icon.svg">
+            <!-- <span class="fas fa-bars" id="bars"></span> -->
+        </div>
+
+
+    </header>
+
+
+
+
+    <section class="reservations">
+        <div class="reservationscontainer">
+
+            <div class="reservationsimage">
+                <img src="images1/takogrill img2.jpg" alt="reservations img">
+            </div>
+
+        
+
+        <div class="reservationform">
+
+            <div class="makeareservation">
+                <ul class="contactusbox1">
+                    <form action="">
+
+                         <div class="inputbox">
+                            <div class="makereservetext">
+                            <h2>MAKE YOUR RESERVATIONS</h2>
+                        </div>
+                          
+
+                            <div class="input">
+                                <span>Your Name</span>
+                                <input type="text" placeholder="Enter Your Name">
+                            </div>
+
+
+                            <div class="input">
+                                <span>Your Email</span>
+                                <input type="text" placeholder="Enter Your Email" size="30">
+                            </div>
+
+                            <div class="input">
+                                <span>Your Contact Number</span>
+                                <input type="number" placeholder="Enter Your Contact Number" size="30">
+                            </div>
+
+                            <div class="input">
+                                <span>Your Message</span>
+                                <textarea name="" placeholder="Enter your message here" id="" cols="45"
+                                    rows="8"></textarea>
+                            </div>
+
+                            <input type="submit" value="Reserve Now" class="submitbtn">
+
+
+
+                    </form>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+
+
+    </section>
+
+    <footer class="footer1">
+
+        <div class="locateinfo">
+
+            <p>2022 TAKOGRILL JAPANESE CUISINE
+                PTE LTD <br> <br>1 McNally St,<br> Singapore 187940</p>
+
+        </div>
+
+    </footer>
+
+
+
+    <script>
+
+        let menu = document.querySelector('#hamicon1');
+        let navbar = document.querySelector('.navbar');
+
+        menu.onclick = () => {
+            menu.classList.toggle('hamicon');
+            navbar.classList.toggle('active');
+
+        }
+
+    </script>
+
+</body>
+
+</html>

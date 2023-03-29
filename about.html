@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+
+</head>
+
+
+<body>
+
+    <!-- header starts here-->
+
+    <header class="header1">
+
+        <div class="logo">
+            <img src="images1/takogrill logo.png" alt="logo">
+        </div>
+
+        <nav id="navbar1" class="navbar">
+
+            <ul class="menu1">
+                <li><a href="index2.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="menu1.html">menu</a></li>
+                <li><a href="reservations.html">Reservation</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="hamicon" id="hamicon1">
+            <img src="images/Hamburger_icon.svg">
+            <!-- <span class="fas fa-bars" id="bars"></span> -->
+        </div>
+
+</header>
+
+
+
+    <!-- about section here -->
+
+    <section class="abouthero">
+        <div class="aboutherotext">
+            <p>We proudly serve authentic Japanese cuisine with fresh ingredients and friendly service. Featuring innovative, original creations, we take a bold and distinct approach in our menu, incorporating fresh and seasonal produce and ingredients from Japan.As an established part of the Bethesda dining scene—we opened in 1988—we hope to keep renewing the trust of our long-time guests and to warmly welcome new ones. Enjoy!
+            </p>
+
+        </div>
+
+    </section>
+
+  
+<section class="abouthero2">
+<div class="aboutherocontainer">
+
+
+<div class="aboutherotext1">
+
+<h2>CONTACT</h2> 
+<br><br><br>
+    <h1>+65 6815 4600<br>
+    tako@takogrill.com<br>
+    <br>
+    <br>
+Walk ins only for lunch/brunch service.</h1>
+</div>
+
+
+<div class="aboutherotext2">
+    <h2> LOCATION </h2>
+    <br><br><br>
+    <h1>1 McNally St,<br>
+    Singapore 187940</h1>
+    <br>
+    <br>
+    <br>
+    <h3>Get Directions Below</h3>
+
+</div>
+</div>
+
+
+</section>
+
+
+
+    <div class="mapbox">
+
+
+        <div class="googlemap">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7811325588646!2d103.84400120068295!3d1.3064691990424475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19bbe54abb45%3A0xed0ecef2d74379c!2sLASALLE%20College%20of%20the%20Arts!5e0!3m2!1sen!2ssg!4v1665114939595!5m2!1sen!2ssg"
+                width="480" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </div>
+
+
+
+    <footer class="footer1">
+
+        <div class="locateinfo">
+
+            <p>2022 TAKOGRILL JAPANESE CUISINE
+                PTE LTD <br> <br>1 McNally St,<br> Singapore 187940</p>
+
+        </div>
+
+    </footer>
+
+
+
+    <script>
+
+        let menu = document.querySelector('#hamicon1');
+        let navbar = document.querySelector('.navbar');
+
+        menu.onclick = () => {
+            menu.classList.toggle('hamicon');
+            navbar.classList.toggle('active');
+
+        }
+
+    </script>
+
+</body>
+
+</html>
